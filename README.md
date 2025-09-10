@@ -9,4 +9,8 @@ In this study, I will focus primarily on CodeT5, since it is well-documented, ha
 
 ##Reasoning
 
+Suitability: A good model should detect conceptual errors, avoid spoon-feeding answers, and promote deeper thinking.
+
+
+
 
