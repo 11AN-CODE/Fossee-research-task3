@@ -16,5 +16,7 @@ Prompt Testing: I would test by comparing generated prompts to teacher-crafted o
 Trade-offs: Larger models = better accuracy, but harder to interpret and more costly; smaller models = less accurate but easier to deploy.
 
 
+## Choice of Model
+
 
 
