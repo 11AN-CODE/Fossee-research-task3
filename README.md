@@ -18,5 +18,7 @@ Trade-offs: Larger models = better accuracy, but harder to interpret and more co
 
 ## Choice of Model
 
+I chose CodeT5 because it is open-source, optimized for code understanding, widely benchmarked, and easy to adapt. Its strength lies in analyzing Python semantics and suggesting improvements, though a limitation is that it isn’t education-specific and may require fine-tuning for pedagogy.
+
 
 
