@@ -7,10 +7,11 @@ My approach to evaluating open-source AI models for student competence analysis 
 In this study, I will focus primarily on CodeT5, since it is well-documented, has strong benchmark results on code understanding tasks, and is easily accessible. A suitable model for high-level competence analysis must provide more than syntax-level error detection—it should surface gaps in conceptual understanding, suggest reflective questions, and encourage deeper reasoning. To test prompt quality, I will compare model-generated prompts against teacher-designed ones, checking for depth, clarity, and educational value. I expect trade-offs between accuracy, interpretability, and computational cost: larger models may give more nuanced insights but require more resources, while smaller ones are more practical but limited. CodeT5 balances these trade-offs, though it may still need fine-tuning to align better with educational objectives.
 
 
-##Reasoning
+## Reasoning
 
 Suitability: A good model should detect conceptual errors, avoid spoon-feeding answers, and promote deeper thinking.
 
+Prompt Testing: I would test by comparing generated prompts to teacher-crafted ones and checking if students engage critically.
 
 
 
