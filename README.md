@@ -13,5 +13,8 @@ Suitability: A good model should detect conceptual errors, avoid spoon-feeding a
 
 Prompt Testing: I would test by comparing generated prompts to teacher-crafted ones and checking if students engage critically.
 
+Trade-offs: Larger models = better accuracy, but harder to interpret and more costly; smaller models = less accurate but easier to deploy.
+
+
 
 
