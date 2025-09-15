@@ -1,24 +1,61 @@
 # Fossee-research-task3
-## Task Objective:Our goal is to explore existing open source AI models (e.g., LLMs, NLP tools, educational analytics frameworks) and determine whether any of them can be adapted to generate meaningful prompts or insights that assess a student’s depth of understanding or competence
+##Project Objective
+The goal of this project is to explore and evaluate existing open source AI models (such as LLMs, NLP tools, and educational analytics frameworks) to determine whether they can be adapted to generate meaningful prompts and insights that assess a student’s depth of understanding and competence in learning Python.
 
-My approach to evaluating open-source AI models for student competence analysis is to first survey existing code-focused language models such as CodeT5, CodeBERT, and GraphCodeBERT. These models are freely available on platforms like Hugging Face and are trained specifically on source code, making them suitable for analyzing Python programs. I will assess their ability to identify student misconceptions, analyze coding patterns, and generate constructive prompts. To validate applicability, I will test them on a small set of student-written Python code snippets that cover common learning challenges such as loops, functions, recursion, and object-oriented design. The models will be evaluated against criteria like accuracy of analysis, ability to generate meaningful prompts (without simply giving solutions), and interpretability for both students and educators.
+##Research Plan & Approach
+Surveyed Models: Focused on open source, code-focused language models including CodeT5, CodeBERT, and GraphCodeBERT available via Hugging Face, as these are well-suited for analyzing Python programs.
 
+##Evaluation Criteria: Assessed the ability to identify misconceptions, analyze coding patterns, and generate constructive prompts without supplying direct solutions.
 
-In this study, I will focus primarily on CodeT5, since it is well-documented, has strong benchmark results on code understanding tasks, and is easily accessible. A suitable model for high-level competence analysis must provide more than syntax-level error detection—it should surface gaps in conceptual understanding, suggest reflective questions, and encourage deeper reasoning. To test prompt quality, I will compare model-generated prompts against teacher-designed ones, checking for depth, clarity, and educational value. I expect trade-offs between accuracy, interpretability, and computational cost: larger models may give more nuanced insights but require more resources, while smaller ones are more practical but limited. CodeT5 balances these trade-offs, though it may still need fine-tuning to align better with educational objectives.
+##Testing: Validated with a set of student-written Python code snippets covering topics like loops, functions, recursion, and OOP. Models were tested for accuracy of analysis, meaningful prompt generation, and interpretability for both students and educators.
 
+##Primary Focus: Selected CodeT5 for deeper analysis due to its documentation, benchmark results, and accessibility.
 
-## Reasoning
+##Reasoning & Decision Making
+A suitable model must look beyond syntax errors, surfacing conceptual gaps and encouraging deeper reasoning through reflective questions and feedback.
 
-Suitability: A good model should detect conceptual errors, avoid spoon-feeding answers, and promote deeper thinking.
+Prompt quality is benchmarked by comparison with teacher-crafted prompts and assessed for depth, clarity, and educational value.
 
-Prompt Testing: I would test by comparing generated prompts to teacher-crafted ones and checking if students engage critically.
+Trade-offs are considered: larger models offer more nuanced analysis at a higher resource cost, while smaller models are easier to deploy but may be less accurate.
 
-Trade-offs: Larger models = better accuracy, but harder to interpret and more costly; smaller models = less accurate but easier to deploy.
+CodeT5 offers a strong balance, though further fine-tuning may be required to adapt it for specific educational requirements.
 
+##Features
+Automatic analysis of student Python code for competence evaluation
 
-## Choice of Model
+Identification of conceptual misunderstandings and learning gaps
 
-I chose CodeT5 because it is open-source, optimized for code understanding, widely benchmarked, and easy to adapt. Its strength lies in analyzing Python semantics and suggesting improvements, though a limitation is that it isn’t education-specific and may require fine-tuning for pedagogy.
+Generation of prompts and feedback that encourage deeper thinking rather than providing solutions
 
+Adaptable to a variety of Python learning topics and difficulty levels
+
+##Installation
+Clone this repository:
+
+text
+git clone https://github.com/11AN-CODE/Fossee-research-task3.git
+Install dependencies:
+
+text
+pip install -r requirements.txt
+Usage
+Place student code samples in the appropriate folder.
+
+Run the main script to analyze submissions (e.g.):
+
+text
+python analyze.py
+Review the generated prompts and competence analysis results in the output directory.
+
+##License
+This project is open-source and distributed under the MIT License. See the LICENSE file for details.
+
+##Contributing
+Contributions, issue reports, and suggestions are welcome. Please open a pull request or raise an issue via GitHub.
+
+##Acknowledgements
+Thanks to the developers of CodeT5, CodeBERT, and GraphCodeBERT.
+
+Inspired by educational researchers working at the intersection of AI and pedagogy.
 
 
