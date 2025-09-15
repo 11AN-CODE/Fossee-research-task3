@@ -5,11 +5,11 @@ The goal of this project is to explore and evaluate existing open source AI mode
 ## Research Plan & Approach
 Surveyed Models: Focused on open source, code-focused language models including CodeT5, CodeBERT, and GraphCodeBERT available via Hugging Face, as these are well-suited for analyzing Python programs.
 
-## Evaluation Criteria: Assessed the ability to identify misconceptions, analyze coding patterns, and generate constructive prompts without supplying direct solutions.
+Evaluation Criteria: Assessed the ability to identify misconceptions, analyze coding patterns, and generate constructive prompts without supplying direct solutions.
 
-## Testing: Validated with a set of student-written Python code snippets covering topics like loops, functions, recursion, and OOP. Models were tested for accuracy of analysis, meaningful prompt generation, and interpretability for both students and educators.
+ Testing: Validated with a set of student-written Python code snippets covering topics like loops, functions, recursion, and OOP. Models were tested for accuracy of analysis, meaningful prompt generation, and interpretability for both students and educators.
 
-## Primary Focus: Selected CodeT5 for deeper analysis due to its documentation, benchmark results, and accessibility.
+ Primary Focus: Selected CodeT5 for deeper analysis due to its documentation, benchmark results, and accessibility.
 
 ## Reasoning & Decision Making
 A suitable model must look beyond syntax errors, surfacing conceptual gaps and encouraging deeper reasoning through reflective questions and feedback.
